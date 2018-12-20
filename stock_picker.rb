@@ -8,4 +8,4 @@ def stock_picker(prices)
   (0...prices.size).to_a.combination(2).to_a[profits.index(profits.max)]
 end
 
-puts stock_picker([17,3,6,9,15,8,6,1,10]).to_s
+# puts stock_picker([17,3,6,9,15,8,6,1,10]).to_s
